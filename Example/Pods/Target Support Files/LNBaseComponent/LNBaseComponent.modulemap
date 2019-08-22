@@ -1,0 +1,6 @@
+framework module LNBaseComponent {
+  umbrella header "LNBaseComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

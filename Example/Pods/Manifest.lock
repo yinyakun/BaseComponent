@@ -1,0 +1,101 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - CYLTabBarController (1.14.2)
+  - LNBaseComponent (0.1.41):
+    - LNBaseComponent/Category (= 0.1.41)
+    - LNBaseComponent/GDATA (= 0.1.41)
+    - LNBaseComponent/Gesture (= 0.1.41)
+    - LNBaseComponent/Helpers (= 0.1.41)
+    - LNBaseComponent/LNBaseRequest (= 0.1.41)
+    - LNBaseComponent/LNCommonWKWebVC (= 0.1.41)
+    - LNBaseComponent/LNToast (= 0.1.41)
+    - LNBaseComponent/LNViews (= 0.1.41)
+    - LNBaseComponent/LocalDataBase (= 0.1.41)
+    - LNBaseComponent/Macros (= 0.1.41)
+    - LNBaseComponent/MessageRedPoint (= 0.1.41)
+    - LNBaseComponent/Quantity (= 0.1.41)
+    - LNBaseComponent/Services (= 0.1.41)
+  - LNBaseComponent/Category (0.1.41)
+  - LNBaseComponent/GDATA (0.1.41)
+  - LNBaseComponent/Gesture (0.1.41)
+  - LNBaseComponent/Helpers (0.1.41):
+    - AFNetworking
+    - MJExtension (~> 3.0.13)
+    - YTKNetwork
+    - YYKit
+  - LNBaseComponent/LNBaseRequest (0.1.41):
+    - YTKNetwork
+  - LNBaseComponent/LNCommonWKWebVC (0.1.41):
+    - WebViewJavascriptBridge (~> 6.0.3)
+  - LNBaseComponent/LNToast (0.1.41):
+    - Toast (~> 4.0.0)
+  - LNBaseComponent/LNViews (0.1.41)
+  - LNBaseComponent/LocalDataBase (0.1.41):
+    - BGFMDB (~> 2.0.9)
+  - LNBaseComponent/Macros (0.1.41)
+  - LNBaseComponent/MessageRedPoint (0.1.41):
+    - CYLTabBarController (~> 1.14.1)
+  - LNBaseComponent/Quantity (0.1.41)
+  - LNBaseComponent/Services (0.1.41)
+  - MJExtension (3.0.15.1)
+  - Toast (4.0.0)
+  - WebViewJavascriptBridge (6.0.3)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - LNBaseComponent (from `../`)
+  - WebViewJavascriptBridge (~> 6.0.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BGFMDB
+    - CYLTabBarController
+    - MJExtension
+    - Toast
+    - WebViewJavascriptBridge
+    - YTKNetwork
+    - YYKit
+
+EXTERNAL SOURCES:
+  LNBaseComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  CYLTabBarController: 5eac1940e20aa934a609ecec38837da63a41dcfe
+  LNBaseComponent: c4b94314a580abcc143e56e114228b68987a10c0
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: efd95031d049f671ec5f997a72c48a875df0c825
+
+COCOAPODS: 1.7.5
