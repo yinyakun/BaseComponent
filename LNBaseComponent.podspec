@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LNBaseComponent'
-  s.version          = '0.1.41'
+  s.version          = '0.0.1'
   s.summary          = '基础组件库'
 
   s.description      = <<-DESC
